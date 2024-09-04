@@ -65,9 +65,7 @@ void number_statistic_module(){
     }
     
     printf("max: %d\naverage: %.2f\n", max10(n), average10(n));
-
 }
-
 
 int main(){
     number_statistic();
