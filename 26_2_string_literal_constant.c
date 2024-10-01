@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 int main(){
     char strA[] = "adc"; //stack;
@@ -16,4 +15,5 @@ int main(){
     // strA = "ABC"; //(X) However, can't change entire array value
     strB = "ABC"; //(O) here additionally create a space for this string
     printf("strB addr: %p\n",strB); //0x10251bfa3
+    return 0;
 }
